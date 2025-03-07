@@ -47,7 +47,7 @@ app.use(function (err, req, res, next) {
     res.render('error');
 });
 
-db.sequelizeInstance.sync({ force: true })
+db.sequelizeInstance.sync() //use parameter { force: true } for deleting everything
     .then(() => {
         console.log("Synced db.");
     })
