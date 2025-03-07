@@ -13,7 +13,7 @@ Create database schema: `docker exec -it {container} bash`
 ## Run the application
 Initialize project: `npm init`
 
-Install necessary modules: `npm install express sequelize mysql2 cors swagger-autogen swagger-jsdoc swagger-ui-express serve-favicon --save`
+Install necessary modules: `npm install express sequelize mysql2 cors swagger-autogen swagger-jsdoc swagger-ui-express --save`
 
 Start the app from `bin/www`
 
